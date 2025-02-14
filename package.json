@@ -1,0 +1,24 @@
+{
+  "name": "tushar-rawat-hyper-xanser",
+  "version": "1.0.0",
+  "description": "Project of Xanser",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rawatushargithub/Tushar-Rawat-hyper.git"
+  },
+  "author": "Tushar Rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rawatushargithub/Tushar-Rawat-hyper/issues"
+  },
+  "homepage": "https://github.com/Rawatushargithub/Tushar-Rawat-hyper#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  }
+}
