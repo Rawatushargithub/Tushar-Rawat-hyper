@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "CommonJS",
+      "outDir": "out", //Change the build output
+      "sourceMap": true //he debugger to map between the original TypeScript source code and the running JavaScript.
+    }
+}
