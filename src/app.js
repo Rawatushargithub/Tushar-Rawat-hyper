@@ -29,11 +29,13 @@ app.use(express.static("public")); //  static only help in to store folder in my
 // app.use(cookieparser())
 
 // routes import  
-import predictionRouter from "./routes/.routesprediction.js"
+import userRoutes from './routes/user.routes.js';
+import predictionRoutes from "./routes/prediction.routes.js"
 
 
 //router declaration
-app.use("/api/v1/prediction" , predictionRouter); // /users is become prefix of the url local host and the control goes to user.routes.js
+app.use('/api/users', userRoutes);
+app.use('/api/predictions', predictionRoutes); // /users is become prefix of the url local host and the control goes to user.routes.js
 
 
 

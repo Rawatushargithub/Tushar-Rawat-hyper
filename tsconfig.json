@@ -1,8 +1,13 @@
 {
-    "compilerOptions": {
-      "target": "ES5",
-      "module": "CommonJS",
-      "outDir": "out", //Change the build output
-      "sourceMap": true //he debugger to map between the original TypeScript source code and the running JavaScript.
-    }
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "./dist", //Change the build output
+    "sourceMap": true, //he debugger to map between the original TypeScript source code and the running JavaScript.
+    "moduleResolution": "Node",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
 }

@@ -5,7 +5,7 @@ import connectDB from "./db/indexdb.js";
 import { app } from "./app.js";
 
 dotenv.config({
-    path: './.env'
+    path: './.env' 
 }) // it is not available in it's doc. but it can be used in exprimental features
 // this change can be done in dev in package.json
 
